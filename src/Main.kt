@@ -1,10 +1,8 @@
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 fun main() {
-    print("Nhap ma sinh vien: ")
-    val maSV=readln()
-    print("Nhap ho ten sinh vien: ")
-    val hoTen=readln()
+    val maSV="2415053122344"
+    val hoTen="Tran Huyen Trang"
     print("Nhap diem Math: ")
     val math=readln().toDouble()
     print("Nhap diem Programming: ")
@@ -25,9 +23,9 @@ fun main() {
     println("Diem trung binh: $diemTB")
     println("Diem cao nhat: $diemCaoNhat")
     if(datGPA) {
-        println("Sinh vien dat GPA tren 5.0")
+        println("Sinh vien dat GPA >= 5.0")
     }
     else {
-        println("Sinh vien khong dat GPA tren 5.0")
+        println("Sinh vien khong dat GPA >= 5.0")
     }
 }
