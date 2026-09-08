@@ -1,7 +1,7 @@
 fun main() {
     println("Ma sinh vien: 2415053122344")
     println("Ho ten sinh vien: Tran Huyen Trang")
-    println("\nBai 1: In cac so tu 1 den 10")
+    println("Bai 1: In cac so tu 1 den 10")
     for(i in 1.. 10) {
         print("$i ")
     }
